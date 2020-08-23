@@ -19,7 +19,7 @@ namespace GenetikAlgoritma_Kelime_Bulma_
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Gene gene = new Gene(15000);
+            Gene gene = new Gene(50);
         }
     }
 }

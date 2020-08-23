@@ -10,21 +10,19 @@ namespace GenetikAlgoritma_Kelime_Bulma_
 
     class Gene
     {
-        string[] wordList = new string[] { "a", "b", "c", "d", "e" };
+        string[] wordList = new string[] { "a", "b", "c", "d", "e","f" };
 
 
-        List<int> Fitness;
         Random rnd;
 
         List<Populate> nextPopulate;
         List<Populate> population;
         private int populationSize;
-        string[] Aim = new string[] { "a", "b", "c" ,"e", "a", "b"};
+        string[] Aim = new string[] { "a", "b", "d" ,"e","f","c","c","f","c","d","a","f"};
         public Gene(int populationSize)
         {
             nextPopulate = new List<Populate>();
             population = new List<Populate>();
-            Fitness = new List<int>();
             rnd = new Random();
             this.populationSize = populationSize;
             Init();
@@ -68,13 +66,13 @@ namespace GenetikAlgoritma_Kelime_Bulma_
             nextPopulate = new List<Populate>();
 
 
-            nextPopulate.Add(population[bests ]);
+            nextPopulate.Add(population[bests]);
             while (true)
             {
                 if(nextPopulate.Count < populationSize)
                 {
-                    string[] newMember1 =  population[rnd.Next(bests)].Word;
-                    string[] newMember2 =  population[rnd.Next(bests)].Word;
+                    string[] newMember1 =  population[rnd.Next(bests,population.Count)].Word;
+                    string[] newMember2 =  population[rnd.Next(bests, population.Count)].Word;
                     string[] crossingOveredMember = new string[newMember1.Length];
                     for(int i = 0; i < Aim.Length; i++)
                     {
@@ -92,7 +90,7 @@ namespace GenetikAlgoritma_Kelime_Bulma_
                     crossingOvered.Word = crossingOveredMember;
                     nextPopulate.Add((crossingOvered));
 
-                    Mutate(0.1);
+                    Mutate(0.001);
                 }
 
                 else
@@ -126,7 +124,6 @@ namespace GenetikAlgoritma_Kelime_Bulma_
                     }
                 }
                 population[j].fitness = rate;
-                Fitness.Add(population[j].fitness);
                 if (population[j].fitness == Aim.Length)
                 {
                     for(int i = 0;i < population[j].Word.Length;i++)
