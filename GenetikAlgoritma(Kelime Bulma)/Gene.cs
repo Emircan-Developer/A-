@@ -18,7 +18,7 @@ namespace GenetikAlgoritma_Kelime_Bulma_
         List<Populate> nextPopulate;
         List<Populate> population;
         private int populationSize;
-        string[] Aim = new string[] { "a", "b", "d" ,"e","f","c","c","f","c","d","a","f"};
+        string[] Aim = new string[] { "a", "b", "d" ,"e","f","c","c","f","c","d","a","f","d","c","f","d","f","d","c","a"};
         public Gene(int populationSize)
         {
             nextPopulate = new List<Populate>();
@@ -90,7 +90,7 @@ namespace GenetikAlgoritma_Kelime_Bulma_
                     crossingOvered.Word = crossingOveredMember;
                     nextPopulate.Add((crossingOvered));
 
-                    Mutate(0.001);
+                    Mutate(0.01);
                 }
 
                 else
@@ -138,6 +138,7 @@ namespace GenetikAlgoritma_Kelime_Bulma_
         }
         void ShortAndAppend()
         {
+            for(int j = 0; j < population.Count; j++) { 
             for(int i = 1; i< population.Count; i++)
             {
                 if (population[i-1].fitness > population[i].fitness)
@@ -148,5 +149,6 @@ namespace GenetikAlgoritma_Kelime_Bulma_
                 }
             }
         }
+    }
     }
 }

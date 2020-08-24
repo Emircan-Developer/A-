@@ -8,3 +8,13 @@ C:\Users\Emircan\source\repos\GenetikAlgoritma(Kelime Bulma)\GenetikAlgoritma(Ke
 C:\Users\Emircan\source\repos\GenetikAlgoritma(Kelime Bulma)\GenetikAlgoritma(Kelime Bulma)\bin\Debug\GenetikAlgoritma(Kelime Bulma).pdb
 C:\Users\Emircan\source\repos\GenetikAlgoritma(Kelime Bulma)\GenetikAlgoritma(Kelime Bulma)\obj\Debug\GenetikAlgoritma(Kelime Bulma).exe
 C:\Users\Emircan\source\repos\GenetikAlgoritma(Kelime Bulma)\GenetikAlgoritma(Kelime Bulma)\obj\Debug\GenetikAlgoritma(Kelime Bulma).pdb
+C:\Users\Emircan\Source\Repos\A-\GenetikAlgoritma(Kelime Bulma)\obj\Debug\GenetikAlgoritma(Kelime Bulma).csprojAssemblyReference.cache
+C:\Users\Emircan\Source\Repos\A-\GenetikAlgoritma(Kelime Bulma)\obj\Debug\GenetikAlgoritma_Kelime_Bulma_.Form1.resources
+C:\Users\Emircan\Source\Repos\A-\GenetikAlgoritma(Kelime Bulma)\obj\Debug\GenetikAlgoritma_Kelime_Bulma_.Properties.Resources.resources
+C:\Users\Emircan\Source\Repos\A-\GenetikAlgoritma(Kelime Bulma)\obj\Debug\GenetikAlgoritma(Kelime Bulma).csproj.GenerateResource.cache
+C:\Users\Emircan\Source\Repos\A-\GenetikAlgoritma(Kelime Bulma)\obj\Debug\GenetikAlgoritma(Kelime Bulma).csproj.CoreCompileInputs.cache
+C:\Users\Emircan\Source\Repos\A-\GenetikAlgoritma(Kelime Bulma)\obj\Debug\GenetikAlgoritma(Kelime Bulma).exe
+C:\Users\Emircan\Source\Repos\A-\GenetikAlgoritma(Kelime Bulma)\obj\Debug\GenetikAlgoritma(Kelime Bulma).pdb
+C:\Users\Emircan\Source\Repos\A-\GenetikAlgoritma(Kelime Bulma)\bin\Debug\GenetikAlgoritma(Kelime Bulma).exe.config
+C:\Users\Emircan\Source\Repos\A-\GenetikAlgoritma(Kelime Bulma)\bin\Debug\GenetikAlgoritma(Kelime Bulma).exe
+C:\Users\Emircan\Source\Repos\A-\GenetikAlgoritma(Kelime Bulma)\bin\Debug\GenetikAlgoritma(Kelime Bulma).pdb
